@@ -1,8 +1,9 @@
-# Tomato Leaf Disease Feature Engineering
+# Tomato-Disease-FE
 
-Source code accompanying the manuscript:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22281949.svg)](https://doi.org/10.5281/zenodo.22281949)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**Biologically Interpretable Multi-Scale Feature Engineering with Two-Stage Pruning for Tomato Leaf Disease Classification**
+Biologically interpretable feature engineering and two-stage feature pruning for tomato leaf disease classification.
 
 This repository implements a tomato leaf disease classification framework based on explicit pathological feature engineering. The pipeline combines leaf segmentation, color, texture, morphology, lesion descriptors, Lesion Spatial Logic (LSL), two-stage feature pruning, and Support Vector Machine (SVM) classification. It also contains KNN and Random Forest comparison code, CNN baseline training, cross-validation, McNemar analysis, segmentation evaluation, ablation studies, and computational-efficiency benchmarks.
 
