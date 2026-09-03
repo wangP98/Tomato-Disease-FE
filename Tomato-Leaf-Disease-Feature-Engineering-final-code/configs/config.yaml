@@ -1,0 +1,45 @@
+# Core experimental configuration
+random_state: 42
+
+features:
+  color: true
+  lbp: true
+  shape: true
+  lesion: true
+  total_dimension: 296
+
+svm:
+  kernel: rbf
+  C: 5.0
+  gamma: scale
+  class_weight: balanced
+
+feature_group_weighting:
+  enabled: false
+
+feature_selection:
+  permutation_importance:
+    repeats: 10
+    scoring: f1_macro
+    threshold: 0.0001
+  pearson:
+    absolute_correlation_threshold: 0.99
+
+cross_validation:
+  n_splits: 5
+  stratified: true
+  shuffle: true
+  random_state: 42
+  scope: training_set_only
+  scaler_fit_scope: fold_training_only
+  feature_selection_inside_each_fold: true
+  validation_used_for_feature_selection: false
+  test_set_used: false
+  hyperparameter_tuning_inside_fold: false
+  feature_group_weighting_used: false
+  feature_augmentation_used: false
+
+mcnemar:
+  alpha: 0.05
+  primary_p_value: exact_two_sided
+  reported_chi_square: uncorrected

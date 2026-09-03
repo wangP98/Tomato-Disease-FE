@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite the archived software release and
+  the associated article once its final bibliographic information is available.
+title: "Tomato Leaf Disease Feature Engineering"
+type: software
+version: "1.0.0"
+date-released: "2026-09-03"
+license: MIT
+authors:
+  - family-names: Wang
+    given-names: Peng
+  - family-names: Zhou
+    given-names: Zhiwen
+  - family-names: Hu
+    given-names: Wenwen
+  - family-names: Ma
+    given-names: Xiang
+  - family-names: Xu
+    given-names: Shipu
+  - family-names: Wang
+    given-names: Yunsheng
+keywords:
+  - tomato leaf disease
+  - handcrafted features
+  - support vector machine
+  - feature pruning
+  - lesion spatial logic
+  - interpretable machine learning
+abstract: >-
+  Source code for biologically interpretable multi-scale feature engineering,
+  lesion spatial descriptors, two-stage feature pruning, SVM classification,
+  baseline comparisons, cross-validation, statistical analysis, segmentation
+  evaluation, CNN comparison training, and computational-efficiency benchmarks
+  for tomato leaf disease classification.
